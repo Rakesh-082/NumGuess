@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5a425c;
+    font-family: "poppoins",sans-serif;
+}
+
+.container{
+    max-width: 850px;
+    width: 100%;
+    box-shadow: 0 0 10px 2px rgba(red, green, blue, 0.5);
+    padding: 2rem;
+    color: 000;
+    background-color: #e5e3e5;
+    transition: all 0.6s ease-in;
+    border-radius: 10px;
+    /* -webkit-box-shadow: 5px 6px 98px -15px rgba(214,214,214,1);
+    -moz-box-shadow: 5px 6px 98px -15px rgba(214,214,214,1);
+    box-shadow: 5px 6px 98px -15px rgba(214,214,214,1); */
+}
+
+.container_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .btn{
+    background-color: #EDA064;
+    color: #2c2c2c;
+    border: none;
+    padding: o.5rem 1.5rem;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    font-family: inherit;
+    width: 100px;
+    height: 25px;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.container .btn:focus{
+    transform: scale(0.98) ;
+    outline: none;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.hide_num{
+    text-align: center;
+    font-size: 3rem;
+    background-color:#EDA064 ;
+    border-radius: 4px;
+    width: 25%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.message{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.number_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem o;
+}
+
+.number_data input{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+}
+
+/* .number_data button{
+    margin-top: o.5rem;
+    display: block;
+} */
+
+.content{
+    font-size: 1.2rem;
+}
+
+
+body .footer{
+    display: inline-block;
+    justify-content: end;
+    text-align: center;
+    width: 2rem;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #EDA064;
+    color: #e5e3e5;
+
+}
+
